@@ -1,0 +1,3 @@
+This was our first iteration of our project this ran into server issues,
+which brought us to our second and current iteration. You may find that in the 
+ontaskbare folder which we started from a blank slate and built up. 

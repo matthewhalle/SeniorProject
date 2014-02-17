@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode roles="*" >
+    <siteMapNode url="~/Default.aspx" title="Home"  description="" />
+    <siteMapNode url="~/PasswordRecovery.aspx" title="Forgot Password"  description="" />
+    <siteMapNode url="~/ChangePassword.aspx" title="Change Password"  description="" />
+
+    <siteMapNode title="Agent"  description="" roles="Agent;Broker">
+      <siteMapNode url="~/Agent/Default.aspx" title="Agent Landing Page"  description="" />
+    </siteMapNode>
+
+
+    <siteMapNode title="Admin"  description="" roles="Admin;Broker">
+      <siteMapNode url="~/Admin/CreateUser.aspx" title="Create User"  description="" />
+    </siteMapNode>
+
+
+    <siteMapNode  title="Broker"  description="" roles="Broker">
+      <siteMapNode url="~/Broker/ViewBrokerLog.aspx" title="Broker Log"  description="" />
+    </siteMapNode>
+
+  </siteMapNode>
+
+</siteMap>
